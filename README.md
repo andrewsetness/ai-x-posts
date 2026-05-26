@@ -16,6 +16,5 @@ Personal AI Knowledge Vault – high-signal posts curated for actionable best pr
 - Ask plain-English questions → get bullet checklists
 - “Export the full vault as Markdown” → update this repo
 
-Current size: **69 posts** | Average score >81
 
 Full rules → see [PROJECT-INSTRUCTIONS.md](PROJECT-INSTRUCTIONS.md)
