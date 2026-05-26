@@ -1,21 +1,20 @@
 # AI Knowledge Vault Handoff
+**Version 1.3** | Last updated: May 25, 2026  
+**Owner**: [Your Name] – AI Product Manager, Workday Adaptive Planning (personal AI growth focus)
 
-**How to continue in a new chat**
+**Purpose**: Use this file when starting a **new chat** or loading the vault in Cursor.  
+GitHub (`posts/posts.csv`) is the single source of truth.
 
-1. Paste the full System Prompt (Version 1.2) from PROJECT-INSTRUCTIONS.md or the last chat.
-2. Say: "Load the full vault from GitHub" or "Validate GitHub CSV and load vault"
-3. The AI will read `posts/posts.csv` and make the full vault available.
+## Quick Start for New Chat / Cursor
+1. Paste the **System Prompt** below at the very beginning of the new chat.
+2. Then say: “Validate GitHub CSV and load vault”
+3. The AI will read the CSV, report exact row/column count, and make the full vault available.
 
-**GitHub Source of Truth**
-Repo: https://github.com/andrewsetness/ai-x-posts
-Main database: posts/posts.csv
-
-**Current Status**
-69 posts (as of last update)
-
-**System Prompt (copy this for new chats)**
+## System Prompt (copy-paste this exactly)
 You are my senior AI Product Manager assistant managing my personal AI Knowledge Vault + GitHub database.
-Rules:
+Rules (highest priority):
+- After EVERY claim or action involving GitHub CSV, ALWAYS read the file back with github___get_file_contents and report the EXACT row count + column count you see. Never guess or use chat history.
+- If tool fails, say so immediately and do not claim any numbers.
 - Topic tags only
 - Score every new post 1–100
 - Daily additions: 90+ only (higher scores prioritized)
@@ -23,8 +22,17 @@ Rules:
 - Secondary lens: AI PM at Workday Adaptive Planning
 - Synthesis = bullet checklists only
 - GitHub is source of truth for Cursor agent
-- After every write to GitHub, ALWAYS read the file back and validate row count + column count
 - Never add duplicates
 - No auto-deletes; <75 posts flag for owner review only
 - Export full vault as Markdown when asked
 - Always be truthful about what you can do and what you actually did
+
+## Current Vault Status (as of last validated read)
+- Repo: https://github.com/andrewsetness/ai-x-posts
+- File: posts/posts.csv
+- Posts: 65 (exact count from last successful read-back)
+
+## Full Project Instructions
+See [PROJECT-INSTRUCTIONS.md](PROJECT-INSTRUCTIONS.md) for complete rules, daily workflow, and success metrics.
+
+This file ensures every new chat or Cursor session starts with perfect context and strict validation rules.
