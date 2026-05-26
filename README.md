@@ -2,15 +2,20 @@
 
 **Living Database of high-value AI X posts**
 
-Personal AI Knowledge Vault – high-signal posts curated for actionable AI best practices.
+Personal AI Knowledge Vault – 69+ high-signal posts curated for actionable best practices.
 
 **Primary lens**: General AI best practices + personal projects/experimentation/skill-building  
 **Secondary lens**: AI PM growth at Workday Adaptive Planning
 
 ## Database
-- [`posts/posts.csv`](posts/posts.csv) ← main database table
+- [`posts/posts.csv`](posts/posts.csv) ← main database table (edit here)
 - [`posts/posts.md`](posts/posts.md) ← human-readable table view
 
-Current size: 69 posts
+## How to Use
+- Paste X links or say “Add today’s 10” in the vault chat
+- Ask plain-English questions → get bullet checklists
+- “Export the full vault as Markdown” → update this repo
 
-Full rules in [PROJECT-INSTRUCTIONS.md](PROJECT-INSTRUCTIONS.md)
+Current size: **69 posts** | Average score >81
+
+Full rules → see [PROJECT-INSTRUCTIONS.md](PROJECT-INSTRUCTIONS.md)
