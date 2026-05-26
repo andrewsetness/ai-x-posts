@@ -2,7 +2,7 @@
 
 **Living Database of high-value AI X posts**
 
-Personal AI Knowledge Vault – 69+ high-signal posts curated for actionable best practices.
+Personal AI Knowledge Vault – high-signal posts curated for actionable best practices.
 
 **Primary lens**: General AI best practices + personal projects/experimentation/skill-building  
 **Secondary lens**: AI PM growth at Workday Adaptive Planning
